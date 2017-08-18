@@ -55,8 +55,8 @@ def execute_command():
     if file_name is not None and not os.path.isfile(file_name):
         logger.warn("Couldn't find file %s", file_name)
 
-    if not command.startswith('idal ') and not command.startswith('idal64 '):
-        return jsonify(error="'idal' and 'idal64' are the only valid commands"), 422
+    if not command.startswith('idaw ') and not command.startswith('idaw64 '):
+        return jsonify(error="'idaw' and 'idaw64' are the only valid commands"), 422
 
     try:
         logger.info('Executing %s', command)
