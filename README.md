@@ -1,3 +1,5 @@
+[![](https://images.microbadger.com/badges/version/thawsystems/ida-base.svg)](https://microbadger.com/images/thawsystems/ida-base "Get your own version badge on microbadger.com") [![](https://images.microbadger.com/badges/image/thawsystems/ida-base.svg)](https://microbadger.com/images/thawsystems/ida-base "Get your own image badge on microbadger.com")
+
 # Docker IDA (Wine)
 
 Run [IDA Pro by Hex Rays](https://www.hex-rays.com/products/ida/) disassembler in [Docker](https://www.docker.com/) containers. Ideal for automating, scaling and distributing the use of IDAPython scripts to perform large-scale reverse engineering tasks.
