@@ -4,9 +4,10 @@
 
 Run [IDA Pro by Hex Rays](https://www.hex-rays.com/products/ida/) disassembler in [Docker](https://www.docker.com/) containers. Ideal for automating, scaling and distributing the use of IDAPython scripts to perform large-scale reverse engineering tasks.
 
+This project was a fork of [Intezer's](https://github.com/intezer/docker-ida), except it uses a Windows IDA Pro license (instead of Linux). See Intezer's blog post about the original project: [http://blog.intezer.com/docker-ida](https://web.archive.org/web/20170104214437/blog.intezer.com/docker-ida)
+
 ![alt tag](https://raw.githubusercontent.com/thawsystems/docker-ida/master/media/docker-ida.png)
 
-Our blog post about this project: http://blog.intezer.com/docker-ida
 
 ## Requirements
 - Machine with Docker installed. [Install Docker](https://docs.docker.com/engine/installation/)
@@ -112,6 +113,6 @@ If the script doesn't run correctly:
 - Make sure the paths to the IDAPython scripts and files to disassemble in the send command are relative to the `<host_shared>` volume.
 
 ## Notes
-- Tested with IDA 6.9
+- Tested with IDA 6.95
 - You are required to read the [IDA License Agreement](https://www.hex-rays.com/products/ida/ida_eula.pdf) prior to using this project.
 - More information on Intezer's blog post: [http://blog.intezer.com/docker-ida](https://web.archive.org/web/20170104214437/blog.intezer.com/docker-ida)
